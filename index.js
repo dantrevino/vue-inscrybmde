@@ -1,5 +1,5 @@
 /**
- * vue-simplemde
+ * vue-inscrybmde
  * @author F-loat
  */
 

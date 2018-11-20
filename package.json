@@ -1,5 +1,5 @@
 {
-  "name": "vue-inscrybmde",
+  "name": "@dan/vue-inscrybmde",
   "version": "0.1.0",
   "description": "InscrybMDE - Markdown Editor component for Vue.js",
   "main": "dist/vue-inscrybmde.min.js",

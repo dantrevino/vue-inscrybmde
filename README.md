@@ -1,4 +1,4 @@
-# Vue-SimpleMDE
+# Vue-InscrybMDE
 > Markdown Editor component for Vue.js. Support only vue2.x.
 
 [![npm package](https://img.shields.io/npm/v/vue-simplemde.svg)](https://npmjs.org/package/vue-simplemde)
