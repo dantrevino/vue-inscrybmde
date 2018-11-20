@@ -1,8 +1,8 @@
 {
-  "name": "vue-simplemde",
+  "name": "vue-inscrybmde",
   "version": "0.5.0",
-  "description": "SimpleMDE - Markdown Editor component for Vue.js",
-  "main": "dist/vue-simplemde.min.js",
+  "description": "InscrybMDE - Markdown Editor component for Vue.js",
+  "main": "dist/vue-inscrybmde.min.js",
   "scripts": {
     "build": "npm run build:dev && npm run build:prod",
     "build:dev": "cross-env NODE_ENV=development webpack --progress --hide-modules",
@@ -12,11 +12,12 @@
   "keywords": [
     "Vue",
     "SimpleMDE",
+    "InscrybMDE",
     "Markdown"
   ],
   "author": {
-    "name": "F-loat",
-    "email": "chaimaoyuan@foxmail.com"
+    "name": "Dan Trevino",
+    "email": "dantreivno@gmail.com"
   },
   "files": [
     "dist",
@@ -24,12 +25,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/F-loat/vue-simplemde.git"
+    "url": "https://github.com/dantrevino/vue-inscrybmde.git"
   },
   "license": "MIT",
   "peerDependencies": {
     "marked": "^0.3.6",
-    "simplemde": "^1.11.2"
+    "inscrybmde": "^1.11.6"
   },
   "devDependencies": {
     "babel-core": "^6.0.0",
