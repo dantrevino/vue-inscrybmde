@@ -126,6 +126,7 @@ $ npm install --save inscrybmde-theme-base
 ## Configuration
 > Configuration is based on InscrybMDE [config](https://github.com/Inscryb/inscryb-markdown-editor)
 
+* [中文](doc/configuration_zh.md)
 * [English](doc/configuration_en.md)
 
 ## Examples

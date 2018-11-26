@@ -1,17 +1,17 @@
-## [SimpleMDE 配置](https://github.com/NextStepWebs/simplemde-markdown-editor#configuration)
+## [InscrybMDE 配置](https://github.com/NextStepWebs/inscrybmde-markdown-editor#configuration)
 
 - **autoDownloadFontAwesome**: 如果设置为 `true`，强制下载Font Awesome (用于图标)，如果设置为 `false`，阻止下载，默认值为 `undefined`，这将智能检查字体是否已经包括Font Awesome，然后进行相应操作。
 - **autofocus**: 如果设置为 `true`，将自动聚焦编辑器，默认值为 `false`。
 - **autosave**: *自动保存已经输入的文本，下次打开时会进行加载，文本提交时会清空保存的内容。*
   - **enabled**: 如果设置为 `true`将自动保存输入的文本，默认值为 `false`。
   - **delay**: 自动保存的间隔时间，单位为毫秒，默认值为 `10000` (10s)。
-  - **uniqueId**: 你必须设置一个唯一的字符串标识符来与其他网站的SimpleMDE存储做区分。
+  - **uniqueId**: 你必须设置一个唯一的字符串标识符来与其他网站的InscrybMDE存储做区分。
 - **blockStyles**: 自定义文本样式块某些按钮的行为。
   - **bold** 可以设置为 `**` 或 `__`，默认值为 `**`。
   - **code** 可以设置为  ```` ``` ```` 或 `~~~`，默认值为 ```` ``` ````。
   - **italic** 可以设置为 `*` 或 `_`，默认值为 `*`。
 - **element**: 要绑定的textarea元素，默认值为文档中的第一个textarea元素。
-- **forceSync**: 如果设置为 `true`，在SimpleMDE中改变文本将立即同步至原textarea元素，默认值为 `false`。
+- **forceSync**: 如果设置为 `true`，在InscrybMDE中改变文本将立即同步至原textarea元素，默认值为 `false`。
 - **hideIcons**: 需要隐藏的图标名称数组，可用于隐藏默认显示的特定图标，而不完全自定义工具栏。
 - **indentWithTabs**: 如果设置为 `false`，用空格代替制表符缩进，默认值为 `true`。
 - **initialValue**: 编辑器初始值。
@@ -145,7 +145,7 @@ horizontal-rule | drawHorizontalRule | 插入水平线<br>fa fa-minus
 preview | togglePreview | 预览<br>fa fa-eye no-disable
 side-by-side | toggleSideBySide | 全屏预览<br>fa fa-columns no-disable no-mobile
 fullscreen | toggleFullScreen | 全屏<br>fa fa-arrows-alt no-disable no-mobile
-guide | [跳转链接](https://simplemde.com/markdown-guide) | Markdown引导<br>fa fa-question-circle
+guide | [跳转链接](https://inscrybmde.com/markdown-guide) | Markdown引导<br>fa fa-question-circle
 
 使用`toolbar`选项自定义工具栏：
 
@@ -168,7 +168,7 @@ export default {
       configs: {
         toolbar: [{
             name: 'bold',
-            action: SimpleMDE.toggleBold,
+            action: InscrybMDE.toggleBold,
             className: 'fa fa-bold',
             title: '加粗'
           },
@@ -191,7 +191,7 @@ export default {
 
 #### 快捷键
 
-SimpleMDE带有预定义键盘快捷键的数组，可以用一个配置选项改变。默认的列表如下：
+InscrybMDE带有预定义键盘快捷键的数组，可以用一个配置选项改变。默认的列表如下：
 
 快捷键 | 操作
 :------- | :-----
