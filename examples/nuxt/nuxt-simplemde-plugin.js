@@ -1,4 +1,4 @@
 import Vue from 'vue'
-import VueSimplemde from 'vue-simplemde'
+import VueInscrybmde from 'vue-inscrybmde'
 
-Vue.use(VueSimplemde)
+Vue.use(VueInscrybmde)

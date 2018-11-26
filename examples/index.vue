@@ -15,7 +15,7 @@
 </template>
 
 <script>
-  import markdownEditor from 'vue-simplemde/src/markdown-editor'
+  import markdownEditor from 'vue-inscrybmde/src/markdown-editor'
 
   // Base example
   export default {
@@ -47,32 +47,32 @@
       }
     },
     computed: {
-      simplemde () {
-        return this.$refs.markdownEditor.simplemde
+      inscrybmde () {
+        return this.$refs.markdownEditor.inscrybmde
       }
     },
     mounted () {
-      console.log(this.simplemde)
-      this.simplemde.togglePreview()
+      console.log(this.inscrybmde)
+      this.inscrybmde.togglePreview()
 
       // 'change' envent has bound, via @input attache an event listener
       // You can attache events in this [list](https://codemirror.net/doc/manual.html#events) yourself if necessary
-      this.simplemde.codemirror.on('beforeChange', (instance, changeObj) => {
+      this.inscrybmde.codemirror.on('beforeChange', (instance, changeObj) => {
         // do some things
       })
 
       // remove SimpleMDE, when component destroy will invoke
-      this.simplemde = null
+      this.inscrybmde = null
 
       // some useful methods
       this.$refs.markdownEditor.initialize() // init
-      this.simplemde.toTextArea()
-      this.simplemde.isPreviewActive() // returns boolean
-      this.simplemde.isSideBySideActive() // returns boolean
-      this.simplemde.isFullscreenActive() // returns boolean
-      this.simplemde.clearAutosavedValue() // no returned value
-      this.simplemde.markdown(this.content) // returns parsed html
-      this.simplemde.codemirror.refresh() // refresh codemirror
+      this.inscrybmde.toTextArea()
+      this.inscrybmde.isPreviewActive() // returns boolean
+      this.inscrybmde.isSideBySideActive() // returns boolean
+      this.inscrybmde.isFullscreenActive() // returns boolean
+      this.inscrybmde.clearAutosavedValue() // no returned value
+      this.inscrybmde.markdown(this.content) // returns parsed html
+      this.inscrybmde.codemirror.refresh() // refresh codemirror
     },
     methods: {
       handleInput () {
@@ -83,5 +83,5 @@
 </script>
 
 <style>
-  @import '~simplemde/dist/simplemde.min.css';
+  @import '~inscrybmde/dist/inscrybmde.min.css';
 </style>
