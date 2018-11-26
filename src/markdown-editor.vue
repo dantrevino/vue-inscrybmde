@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import InscrybMDE from 'inscrybemde';
+import InscrybMDE from 'inscrybmde';
 import marked from 'marked';
 
 export default {
