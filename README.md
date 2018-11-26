@@ -1,17 +1,17 @@
 # Vue-InscrybMDE
 > Markdown Editor component for Vue.js. Support only vue2.x.
 
-[![npm package](https://img.shields.io/npm/v/vue-simplemde.svg)](https://npmjs.org/package/vue-simplemde)
-[![npm downloads](http://img.shields.io/npm/dm/vue-simplemde.svg)](https://npmjs.org/package/vue-simplemde)
+[![npm package](https://img.shields.io/npm/v/vue-inscrybmde.svg)](https://npmjs.org/package/vue-inscrybmde)
+[![npm downloads](http://img.shields.io/npm/dm/vue-inscrybmde.svg)](https://npmjs.org/package/vue-inscrybmde)
 
 # Use Setup
 
-> No longer support Vue1.x, you can modify to use
+> Vue1.x is not supported
 
 ## Install
 
 ``` bash
-npm install vue-simplemde --save
+npm install vue-inscrybmde --save
 ```
 
 ## Use
@@ -24,7 +24,7 @@ npm install vue-simplemde --save
 </template>
 
 <script>
-  import markdownEditor from 'vue-simplemde/src/markdown-editor'
+  import markdownEditor from 'vue-inscrybmde/src/markdown-editor'
 
   export default {
     components: {
@@ -34,7 +34,7 @@ npm install vue-simplemde --save
 </script>
 
 <style>
-  @import '~simplemde/dist/simplemde.min.css';
+  @import '~inscrybmde/dist/inscrybmde.min.css';
 </style>
 ```
 
@@ -42,8 +42,8 @@ npm install vue-simplemde --save
 
 ``` javascript
 import Vue from 'vue'
-import VueSimplemde from 'vue-simplemde'
-import 'simplemde/dist/simplemde.min.css'
+import VueSimplemde from 'vue-inscrybmde'
+import 'inscrybmde/dist/inscrybmde.min.css'
 
 Vue.use(VueSimplemde)
 ```
@@ -76,7 +76,7 @@ $ npm install --save github-markdown-css
 </template>
 
 <style>
-  @import '~simplemde/dist/simplemde.min.css';
+  @import '~inscrybmde/dist/inscrybmde.min.css';
   @import '~github-markdown-css';
 </style>
 ```
@@ -101,47 +101,46 @@ $ npm install --save highlight.js
 </script>
 
 <style>
-  @import '~simplemde/dist/simplemde.min.css';
+  @import '~inscrybmde/dist/inscrybmde.min.css';
   @import '~highlight.js/styles/atom-one-dark.css';
   /* Highlight theme list: https://github.com/isagalaev/highlight.js/tree/master/src/styles */
 </style>
 ```
 
-## Editor Theme ([simplemde-theme-base](https://github.com/xcatliu/simplemde-theme-base/wiki/List-of-themes))
-> e.g. use simplemde-theme-base theme
+## Editor Theme ([inscrybmde-theme-base](https://github.com/xcatliu/inscrybmde-theme-base/wiki/List-of-themes))
+> e.g. use inscrybmde-theme-base theme
 
 ### install
 ```
-$ npm install --save simplemde-theme-base
+$ npm install --save inscrybmde-theme-base
 ```
 
 ### use
 ``` vue
 <style>
-  @import '~simplemde-theme-base/dist/simplemde-theme-base.min.css';
-  /* no need import simplemde.min.css */
+  @import '~inscrybmde-theme-base/dist/inscrybmde-theme-base.min.css';
+  /* no need import inscrybmde.min.css */
 </style>
 ```
 
 ## Configuration
-> SimpleMD's config
+> Configuration is based on InscrybMDE [config](https://github.com/Inscryb/inscryb-markdown-editor)
 
-* [中文](doc/configuration_zh.md)
 * [English](doc/configuration_en.md)
 
 ## Examples
 
 * [Simple Example](./examples/index.vue)
 * [Nuxt Example](./examples/nuxt)
-* [Demo Page](https://f-loat.github.io/vue-simplemde/)
-* [Demo Source](https://github.com/F-loat/vue-simplemde/tree/gh-pages)
+* [Demo Page](https://f-loat.github.io/vue-inscrybmde/)
+* [Demo Source](https://github.com/F-loat/vue-inscrybmde/tree/gh-pages)
 
 ## Dependencies
 
-* [SimpleMDE](https://github.com/sparksuite/simplemde-markdown-editor)
+* [SimpleMDE](https://github.com/sparksuite/inscrybmde-markdown-editor)
 
 ## Licence
 
-vue-simplemde is open source and released under the MIT Licence.
+vue-inscrybmde is open source and released under the MIT Licence.
 
 Copyright (c) 2018 F-loat
